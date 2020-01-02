@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>«Мишка» | Вязание на заказ</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
@@ -28,7 +29,7 @@
               </form>
             </li>
             <li class="main-nav__item-user cart-item">
-              <a href="">Корзина: пока пуста</a>
+              <a href="#">Корзина: пока пуста</a>
             </li>
           </ul>
         </div>
@@ -44,47 +45,39 @@
           <form class="order__form" action="https://echo.htmlacademy.ru" method="post">
             <fieldset class="order__section">
               <legend class="order__title">Тип</legend>
-              <label class="order__radio">
-                <input type="radio" value="interior" name="knit" checked>
-                <span class="order__radio-indicator"></span>
+              <input class="order__radio-indicator" type="radio" value="interior" name="knit" id="interior" checked>
+              <label class="order__radio" for="interior">
                 Аксессуар для интерьера
               </label>
-              <label class="order__radio">
-                <input type="radio" value="toy" name="knit">
-                <span class="order__radio-indicator"></span>
+              <input class="order__radio-indicator" type="radio" value="toy" name="knit" id="toy">
+              <label class="order__radio" for="toy">
                 Детская игрушка
               </label>
             </fieldset>
             <fieldset class="order__section">
               <legend class="order__title">Цвет</legend>
-              <label class="order__checkbox">
-                <input type="checkbox" name="color" value="white" checked>
-                <span class="order__checkbox-indicator"></span>
+              <input class="order__checkbox-indicator" type="checkbox" name="color" value="white" id="white" checked>
+              <label class="order__checkbox" for="white">
                 Белый
               </label>
-              <label class="order__checkbox">
-                <input type="checkbox" name="color" value="gray" checked>
-                <span class="order__checkbox-indicator"></span>
+              <input class="order__checkbox-indicator" type="checkbox" name="color" value="gray" id="gray" checked>
+              <label class="order__checkbox" for="gray">
                 Серый
               </label>
-              <label class="order__checkbox">
-                <input type="checkbox" name="color" value="tiffany">
-                <span class="order__checkbox-indicator"></span>
+              <input class="order__checkbox-indicator" type="checkbox" name="color" value="tiffany" id="tiffany">
+              <label class="order__checkbox" for="tiffany">
                 «Тиффани»
               </label>
-              <label class="order__checkbox">
-                <input type="checkbox" name="color" value="black">
-                <span class="order__checkbox-indicator"></span>
+              <input class="order__checkbox-indicator" type="checkbox" name="color" value="black" id="black">
+              <label class="order__checkbox" for="black">
                 Черный
               </label>
-              <label class="order__checkbox">
-                <input type="checkbox" name="color" value="pink">
-                <span class="order__checkbox-indicator"></span>
+              <input class="order__checkbox-indicator" type="checkbox" name="color" value="pink" id="pink">
+              <label class="order__checkbox" for="pink">
                 Розовый
               </label>
-              <label class="order__checkbox">
-                <input type="checkbox" name="color" value="orange">
-                <span class="order__checkbox-indicator"></span>
+              <input class="order__checkbox-indicator" type="checkbox" name="color" value="orange" id="orange">
+              <label class="order__checkbox" for="orange">
                 Оранжевый
               </label>
             </fieldset>
@@ -143,8 +136,8 @@
           </li>
         </ul>
         <div class="page-footer__copyright copyright">
-          <b class="copyright__text">Разработано</b>
-          <a href="https://htmlacademy.ru/intensive/adaptive">
+          <a class="page-footer__copyright--link copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <b class="copyright__text">Разработано</b>
             <img src="img/logo-html.png" width="27" height="34" alt="HTML-Academy">
           </a>
         </div>

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Интернет-магазин игрушек ручной работы «Мишка»</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
@@ -110,31 +111,27 @@
           <button class="reviews__prev" type="button">Предыдущий отзыв</button>
           <button class="reviews__next" type="button">Следующий отзыв</button>
         </div>
-        <a href="#" class="reviews__write btn">Написать</a>
+        <button class="reviews__write btn" type="button">Написать</button>
       </section>
       <section class="contacts">
         <div class="contacts__wrapper">
           <h2 class="contacts__title">Контакты</h2>
-          <table class="contacts__table">
-            <tr>
-              <td>
-                e-mail:
-              </td>
-              <td>
-                <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                адрес:
-              </td>
-              <td>
-                г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101
-              </td>
-            </tr>
-          </table>
+          <div class="contacts__info">
+            <p class="contacts__e-mail">
+              e-mail:
+            </p>
+            <p class="contacts__e-mail contacts__e-mail--link">
+              <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+            </p>
+            <p class="contacts__adress">
+              адрес:
+            </p>
+            <p class="contacts__adress">
+              г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101
+            </p>
+          </div>
         </div>
-        <a href="#" class="contacts__write btn">Напишите нам</a>
+        <button class="contacts__write btn" type="button">Напишите нам</button>
       </section>
     </main>
     <footer class="page-footer">
@@ -151,8 +148,8 @@
           </li>
         </ul>
         <div class="page-footer__copyright copyright">
-          <b class="copyright__text">Разработано</b>
-          <a href="https://htmlacademy.ru/intensive/adaptive">
+          <a class="page-footer__copyright--link copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <b class="copyright__text">Разработано</b>
             <img src="img/logo-html.png" width="27" height="34" alt="HTML-Academy">
           </a>
         </div>
