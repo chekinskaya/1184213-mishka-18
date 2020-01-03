@@ -1,0 +1,51 @@
+.content {
+  background-color: #ffffff;
+  background-image: url("../img/hero-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.content__wrapper {
+  height: 489px;
+}
+
+.content__title {
+  color: #010000;
+  text-align: center;
+  font-size: 27px;
+
+  line-height: 30px;
+  padding-top: 76px;
+  padding-bottom: 120px;
+  padding-left: 39px;
+  padding-right: 39px;
+  margin: 0 auto;
+}
+
+.content__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content__item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.content__item--interior {
+  background-color: #63d1bb;
+}
+
+.content__item--toys {
+  background-color: #56c3b2;
+}
+
+.content__item--link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+}
