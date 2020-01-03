@@ -10,26 +10,26 @@
       <a class="page-header__logo logo" href="index.html">
         <img class="logo-image" src="img/logotype-mobile.svg" width="86" height="35" alt="Интернет-магазин «Мишка»">
       </a>
-      <nav class="main-nav">
-        <ul class="main-nav__list site-list">
-          <button class="main-nav__toggle" type="button">Открыть меню</button>
-          <div class="main-nav__wrapper">
-            <li class="site-list__item">
-              <a href="catalog.html">Каталог товаров</a>
+     <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__item--link" href="catalog.html">Каталог товаров</a>
             </li>
             <li class="site-list__item">
-              <a href="form.html">Вязание на заказ</a>
+              <a class="site-list__item--link" href="form.html">Вязание на заказ</a>
             </li>
           </ul>
-          <ul class="main-nav__list-user">
-            <li class="main-nav__item-user">
+          <ul class="main-nav__list-user site-list site-list--user">
+            <li class="main-nav__item-user site-list__item site-list__item--user">
               <form action="https://echo.htmlacademy.ru" method="get">
                 <input class="search" type="search" name="search" placeholder="Поиск по сайту">
                 <button class="search-item" type="submit">Поиск</button>
               </form>
             </li>
-            <li class="main-nav__item-user cart-item">
-              <a href="">Корзина: пока пуста</a>
+            <li class="main-nav__item-user site-list__item site-list__item--user cart-item">
+              <a class="site-list__item--link" href="">Корзина: пока пуста</a>
             </li>
           </ul>
         </div>
@@ -71,8 +71,6 @@
         <div class="video__wrapper">
           <h2 class="video__title">Процесс производства</h2>
           <div class="video__player">
-
-
           </div>
           <p class="video__description">
             По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
