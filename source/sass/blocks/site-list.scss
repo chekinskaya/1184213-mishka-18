@@ -18,3 +18,16 @@
   font-weight: 700;
 }
 
+.search {
+  border: none;
+  outline: none;
+  background: transparent;
+
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.search::placeholder {
+  color: #000000;
+}

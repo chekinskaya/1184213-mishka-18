@@ -12,6 +12,7 @@
   padding-right: 30px;
   padding-top: 75px;
   padding-bottom: 75px;
+  background-color: #f1f1f1;
 }
 
 .catalog__title {
@@ -22,10 +23,7 @@
   margin: 0;
   margin-bottom: 8px;
   letter-spacing: -0.2px;
-}
-
-.catalog__title--content {
-  background-color: #f1f1f1;
+  text-align: center;
 }
 
 .catalog__title-product {

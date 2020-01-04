@@ -36,8 +36,10 @@
       </nav>
     </header>
     <main class="page-main">
-      <h1 class="page-main__title">Вязание на заказ</h1>
       <section class="order">
+        <header class="order__main-title--content">
+          <h1 class="order__main-title">Вязание на заказ</h1>
+        </header>
         <div class="order__wrapper">
           <p class="order__description">
             Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
@@ -98,24 +100,21 @@
             </fieldset>
             <fieldset class="order__section">
               <legend class="order__title">Тел</legend>
-              <label class="order__text-field" for="tel">
-                <input type="tel" id="tel" name="tel" placeholder="+7 XXX XXX XX XX*" required>
-              </label>
+              <input class="order__text-field" type="tel" id="tel" name="tel" placeholder="+7 XXX XXX XX XX*" required>
+              <label for="tel"></label>
             </fieldset>
             <fieldset class="order__section">
               <legend class="order__title">E-mail</legend>
-              <label class="order__text-field" for="email">
-                <input type="email" id="email" name="email" placeholder="Ваш e-mail*" required>
-              </label>
+              <input class="order__text-field" type="email" id="email" name="email" placeholder="Ваш e-mail*" required>
+              <label for="email"></label>
             </fieldset>
             <fieldset class="order__section">
               <legend class="order__title">Доп</legend>
-              <label class="order__text-field" for="message">
-                <textarea name="message" id="message" placeholder="Опишите все ваши пожелания к заказу"></textarea>
-              </label>
+              <textarea class="order__text-field order__text-field--message" name="message" id="message" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+              <label  for="message"></label>
             </fieldset>
             <div class="order__form-button">
-              <strong class="order__field-required">*Поля обязательны для заполнения</strong>
+              <p class="order__field-required">*Поля обязательны для заполнения</p>
               <button class="order__button btn" type="submit">Отправить заказ</button>
             </div>
           </form>
