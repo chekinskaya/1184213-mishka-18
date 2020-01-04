@@ -1,0 +1,33 @@
+.site-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-list__item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 79px;
+}
+
+.site-list__item--link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.search {
+  border: none;
+  outline: none;
+  background: transparent;
+
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.search::placeholder {
+  color: #000000;
+}
