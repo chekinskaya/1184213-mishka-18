@@ -12,7 +12,7 @@
   padding-right: 30px;
   padding-top: 75px;
   padding-bottom: 75px;
-  background-color: #f1f1f1;
+  background-color: $white-two;
 }
 
 .catalog__title {
@@ -40,7 +40,7 @@
 }
 
 .catalog__item {
-  border: solid 1px #ececec;
+  border: solid 1px $white-four;
   margin-bottom: 30px;
 }
 
