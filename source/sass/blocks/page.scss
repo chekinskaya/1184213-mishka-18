@@ -1,0 +1,20 @@
+/*.page {
+  margin: 0 auto;
+  min-width: 320px;
+
+  background-image: url("../img/mishka-index-mobile-menu.jpg") no-repeat 50% 0;
+}
+
+@media (min-width: $tablet-width) {
+  .page {
+    background-image: url("../img/mishka-index-tablet.jpg") no-repeat 50% 0;
+    background-size: 1178px auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page {
+    background-image: url("../img/mishka-index-desktop.jpg") no-repeat 50% 0;
+    background-size: 1391px auto;
+  }
+}*/

@@ -1,3 +1,40 @@
 .main-nav {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+
+  width: 320px;
+  margin: 0 auto;
 }
+
+.main-nav__list {
+  outline: 2px solid MediumSpringGreen;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+
+
+  /* Временно для сетки */
+  min-height: 50px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    width: auto;
+    margin: 0;
+  }
+
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__wrapper {
+    width: 1150px;
+  }
+
