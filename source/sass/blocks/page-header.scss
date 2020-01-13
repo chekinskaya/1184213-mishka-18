@@ -4,25 +4,26 @@
 
   color: #000000;
   text-align: center;
+}
 
-  display: flex;
-  flex-direction: column;
-  outline: 2px solid LawnGreen;
+.page-header__wrapper {
+  @include container();
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    outline: 2px solid hotpink;
+  }
 }
 
 .page-header__logo {
   height: 79px;
-  outline: 2px solid hotpink;
-}
+  padding-top: 24px;
+  padding-bottom: 24px;
 
-@media (min-width: $tablet-width) {
-  .page-header__logo {
+  @media (min-width: 768px) {
     height: 88px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .page-header__logo {
-    height: 88px;
+    outline: 2px solid hotpink;
   }
 }

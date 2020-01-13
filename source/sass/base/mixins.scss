@@ -6,3 +6,16 @@
     display: none;
   }
 }
+
+@mixin container {
+  padding: 0 30px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    padding: 0 50px;
+  }
+
+  @media (min-width: 1150px) {
+    width: 1150px;
+  }
+}

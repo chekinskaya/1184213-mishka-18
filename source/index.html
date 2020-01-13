@@ -8,33 +8,51 @@
   </head>
   <body class="page">
     <header class="page-header">
-      <a class="page-header__logo logo">
-        <img class="logo-image" src="img/logotype-mobile.svg" width="86" height="35" alt="Интернет-магазин «Мишка»">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a class="site-list__link" href="catalog.html">Каталог товаров</a>
-            </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="form.html">Вязание на заказ</a>
-            </li>
-          </ul>
-          <ul class="main-nav__list-user site-list site-list--user">
-            <li class="site-list__item site-list__item--user">
-              <form action="https://echo.htmlacademy.ru" method="get">
-                <input class="search" type="search" name="search" placeholder="Поиск по сайту">
-                <button class="search-item" type="submit">Поиск</button>
-              </form>
-            </li>
-            <li class="site-list__item site-list__item--user cart-item">
-              <a class="site-list__link" href="">Корзина: пока пуста</a>
-            </li>
-          </ul>
+      <div class="page-header__wrapper">
+        <div class="page-header__logo">
+          <a class="logo">
+            <img class="logo-image" src="img/logotype-mobile.svg" width="86" height="35" alt="Интернет-магазин «Мишка»">
+          </a>
         </div>
-      </nav>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button">Открыть меню</button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+              <li class="main-nav__item site-list__item">
+                <a class="site-list__link" href="catalog.html">Каталог товаров</a>
+              </li>
+              <li class="main-nav__item site-list__item">
+                <a class="site-list__link" href="form.html">Вязание на заказ</a>
+              </li>
+            </ul>
+            <ul class="main-nav__list-user site-list site-list--user">
+              <li class="main-nav__item main-nav__list--user site-list__item site-list__item--user">
+                <form action="https://echo.htmlacademy.ru" method="get">
+                  <input class="search" type="search" name="search" placeholder="Поиск по сайту">
+                  <button class="search-item" type="submit">Поиск</button>
+                </form>
+              </li>
+              <li class="main-nav__item site-list__item site-list__item--user cart-item">
+                <a class="site-list__link" href="">Корзина: пока пуста</a>
+              </li>
+            </ul>
+
+              <ul class="main-nav__list site-list site-list--promo">
+                <li class="main-nav__item site-list__item">
+                  <a class="site-list__link" href="#">Новые поступления</a>
+                </li>
+                <li class="main-nav__item site-list__item">
+                  <a class="site-list__link" href="#">Распродажа</a>
+                </li>
+                <li class="main-nav__item site-list__item site-list__item--shipping">
+                Бесплатная доставка по России
+              </li>
+              </ul>
+
+
+          </div>
+        </nav>
+      </div>
     </header>
     <main class="page-main">
       <section class="content">

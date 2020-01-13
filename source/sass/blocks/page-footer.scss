@@ -1,7 +1,6 @@
 .page-footer {
   width: auto;
   background-color: $white-two;
-
   color: #000000;
 }
 
@@ -9,5 +8,6 @@
   text-align: center;
   padding-top: 25px;
   padding-bottom: 30px;
-  margin: 0 auto;
+
+  @include container();
 }

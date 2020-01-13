@@ -3,14 +3,17 @@
   margin: 0;
   padding: 0;
 
-  /* Временно для сетки */
-  min-height: 158px;
+  @media (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .site-list__item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 79px;
+  padding: 0;
+  margin: 0;
+  height: 79px;
+  text-align: left;
+  padding-top: 26px;
 }
 
 .site-list__link {
@@ -33,4 +36,20 @@
 
 .search::placeholder {
   color: #000000;
+}
+
+.site-list--user {
+  @media (min-width: 768px) {
+    display: flex;
+    order: -1;
+    outline: 2px solid orange;
+  }
+}
+
+.site-list--promo {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
